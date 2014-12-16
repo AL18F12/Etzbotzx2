@@ -3,7 +3,7 @@
 function buscargenero ()
 {alert ('Funcion');
 	//datos a mandar
-	$ajax({
+	$.ajax({
 		type:"POST",
 		url: "http://192.168.1.18/practicafinal/consultagenero.php"		
 	}).done (function(msg){
