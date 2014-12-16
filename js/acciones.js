@@ -74,7 +74,7 @@ $('#Terror').append('<a href="#" data-role="button" data-inline="true"><img src=
 
 }//switch	
 
-$('.imgenj').width($('#TodosGeneros').width()*.09);
+$('.imgenj').width($('#TodosGeneros').width()*.25);
 $('#Genero').trigger('pagecreate');			}
 		}
 		if (DatosJuegos.datos == 0)
