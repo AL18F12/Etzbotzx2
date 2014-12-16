@@ -7,8 +7,9 @@ function buscargenero ()
 		type:"POST",
 		url: "http://192.168.1.18/practicafinal/consultagenero.php"		
 	}).done (function(msg){
-		var DatosJuegos = JSON.parse(msg);
 		alert (msg);
+		var DatosJuegos = JSON.parse(msg);
+		
 		if(DatosJuegos.datos == 1)
 
 		
